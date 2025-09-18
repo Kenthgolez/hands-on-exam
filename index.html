@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+</head>
+<body>
+    <div class="login-container">
+        <h1>LOGIN</h1>
+        <form onsubmit="return validateForm()" action="pro.php" method="post">
+        <label for="mobile">Mobile Number</label>
+        <input type="mobile" id="mobile" name="mobile" required>
+
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" required>
+        
+        <button type="submit">Login</button>
+        </form>
+    </div>
+    <script src="fun.js"></script>
+</body>
+</html>
